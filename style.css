@@ -1,0 +1,117 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(43, 41, 41);
+    color:azure;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    
+
+}
+
+
+.text{
+    display:flex;
+    justify-content: center;
+    font-family: 'Jua';
+}
+p{
+    font-family: 'Jua';
+    margin-right:0;
+    margin-left:0;
+   
+}
+.playagain, #result{
+    font-size:25px;
+}
+.scoreBoth{display:flex;
+    
+}
+#left{
+    display:flex;
+    align-items: center;
+    margin:0;
+}
+#right{
+    display:flex;
+    align-items: center;
+    margin:0;}
+.score{
+    
+    display:flex;
+    justify-content: space-between;
+    padding-left:115px;
+    padding-right:50px;
+    font-weight:800;
+    font-size: 40px;
+    border: 2px double whitesmoke;
+    align-items: center;
+    margin-top:30px;
+    
+}
+
+#fire{
+    background-color: rgba(114, 53, 24, 0.87);
+}
+
+#water{
+    background-color: rgb(77, 115, 226);
+}
+
+#grass{
+    background-color: rgb(39, 156, 39);
+}
+
+
+button{
+    font-family: 'Hanalei Fill';
+    font-size: 50px;
+    font-weight:700;
+    color:whitesmoke;
+    border:2px solid whitesmoke;
+ 
+    width:280px;
+    height:300px;
+    border-radius: 20px;
+    border:2px solid white;
+    cursor:pointer;
+    
+    
+}
+
+.buttons{
+    display:flex;
+    justify-content: space-between;
+    gap:100px;
+    margin-top:100px;
+    margin-bottom: 50px;
+    display:flex;
+    flex: 1 1 auto;
+    
+   
+    
+}
+#fire:hover{
+    background-color: black;
+    transform:scale(1.1);
+}
+#water:hover{
+    background-color: black;
+    transform:scale(1.1);
+}
+#grass:hover{
+    background-color: black;
+    transform:scale(1.1);
+}
+img{
+    width:260px;
+    height:260px;
+    margin:0;
+}
+
+#tracker{
+    font-size:30px;
+}

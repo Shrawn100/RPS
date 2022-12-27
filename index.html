@@ -6,8 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="./js-file.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="container">
+
+      <div class="buttons">
+        <button id="fire"><img src="./images/fire.png" alt="fire image"></button>
+        <button id="water"><img src="./images/water.png" alt="water image"></button>
+        <button id="grass"><img src="images/leaf.png" alt="leaf image"> </button>
+      </div>
+
+      <div class="track">
+        <p class="text" id="tracker"></p>
+      </div>
+    
+      <div class="text">
+        <p id="result"></p>
+      </div>
+     
+
+      
+      <p class="text" id="playagain">First to 5... Pick Your Element!</p>
+      <div class="score">
+        <p class="scoreBoth">Your Score:<div class="text" id="left"></div></p>
+        <p class="scoreBoth"><div class="text" id="right"></div>:Comp Score</p>
+      </div>
+      
+    </div>
     
 </body>
 </html>
